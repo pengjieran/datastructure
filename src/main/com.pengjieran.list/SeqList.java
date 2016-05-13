@@ -68,7 +68,7 @@ public class SeqList<T> implements LList<T> {
     }
 
     public void removeAll() {
-
+        this.len = 0;
     }
 
     public T search(T key) {
