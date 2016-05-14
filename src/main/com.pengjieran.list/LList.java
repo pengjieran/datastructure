@@ -32,4 +32,7 @@ public interface LList<T> {
 
     //查找
     T search(T key);
+
+    //是否包含指定元素
+    boolean contain(T key);
 }

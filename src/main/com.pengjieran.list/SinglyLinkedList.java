@@ -40,4 +40,9 @@ public class SinglyLinkedList<T> implements LList<T> {
     public T search(T key) {
         return null;
     }
+
+    @Override
+    public boolean contain(T key) {
+        return false;
+    }
 }
