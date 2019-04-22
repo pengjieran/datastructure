@@ -18,7 +18,7 @@
 	</developers>
 
 	<build>
-		<sourceDirectory>src/main</sourceDirectory>
+<!--		<sourceDirectory>src/main</sourceDirectory>-->
 		<!--<testSourceDirectory>src/java/test</testSourceDirectory>
 		<resources>
 			<resource>
