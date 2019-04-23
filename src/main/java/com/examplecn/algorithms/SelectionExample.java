@@ -22,7 +22,10 @@ public class SelectionExample extends Example {
             for (int j = i + 1; j < length; j++) {
 
                 if (less(a[j], a[min])) min = j;
-                exchange(a, i, min);
+                if (i != min) {
+
+                    exchange(a, i, min);
+                }
             }
         }
     }
