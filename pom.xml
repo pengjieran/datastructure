@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.pengjieran</groupId>
 	<artifactId>datastructure</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<name>datastructure</name>
 	<url>https://github.com/pengjieran/datastructure</url>
 	<description>数据结构与算法相关的代码，包括基础数据结构的简单实现</description>
