@@ -35,7 +35,7 @@ public class BubbleSort<T> {
                         System.out.println("不交换两值");
                     }
                 }
-                System.out.println("第" + i + "趟比较后：" + Print.pringArray(array));
+                System.out.println("第" + (i + 1) + "趟比较后：" + Print.pringArray(array));
             }
         }
     }
