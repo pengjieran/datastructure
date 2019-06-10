@@ -1,4 +1,4 @@
-package com.pengjieran.list;
+package com.examplecn.list;
 
 import java.util.Arrays;
 

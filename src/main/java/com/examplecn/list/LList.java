@@ -1,4 +1,4 @@
-package com.pengjieran.list;
+package com.examplecn.list;
 
 /**
  * 线性列表基础接口

@@ -1,4 +1,4 @@
-package com.pengjieran.list;
+package com.examplecn.list;
 
 /**
  * 约瑟夫环问题:

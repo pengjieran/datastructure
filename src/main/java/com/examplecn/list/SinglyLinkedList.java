@@ -1,4 +1,4 @@
-package com.pengjieran.list;
+package com.examplecn.list;
 
 /**
  * 单链表
