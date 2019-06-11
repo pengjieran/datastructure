@@ -21,6 +21,7 @@ public class BubbleSort<T> {
             int length = array.length;
             for (int i = 0; i < length - 1; i++) {
                 
+            	boolean isSorted = true;
                 for (int j = 0; j < length - i - 1; j++) {
                     
                     System.out.println("第" + j  + "次比较");
@@ -30,11 +31,14 @@ public class BubbleSort<T> {
                         Integer temp = array[j];
                         array[j] = array[j + 1];
                         array[j + 1] = temp;
+                        isSorted = false;
                     } else {
                         
                         System.out.println("不交换两值");
                     }
                 }
+                
+                if (isSorted) break;
                 System.out.println("第" + (i + 1) + "趟比较后：" + Print.pringArray(array));
             }
         }
