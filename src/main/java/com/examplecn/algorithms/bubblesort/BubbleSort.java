@@ -1,6 +1,9 @@
 package com.examplecn.algorithms.bubblesort;
 
 import com.examplecn.algorithms.Print;
+import com.examplecn.utils.DataUtils;
+
+import cn.hutool.core.util.RandomUtil;
 
 /**
  * 冒泡排序相关算法实现
@@ -46,7 +49,7 @@ public class BubbleSort<T> {
     
     public static void main(String[] args) {
         
-        Integer[] array = {4, 10, 5, 7, 2, 9, 3, 6};
+        Integer[] array = DataUtils.randomArrays(20);
         sortCommon(array);
         Print.pringArray(array);
     }
